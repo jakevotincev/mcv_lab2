@@ -116,6 +116,7 @@ void SubImageNEON(uint8_t *dst, uint8_t const *src1, uint8_t const *src2, int wi
 ![image](images/img1920_sub.png)
 
 ## Сравнение производительности
+### Сложение neon
 ```c++
 4k
 estimated_time
@@ -140,6 +141,7 @@ estimated_time
 46306 us
 avg 463
 ```
+### Обычное сложение 
 ```c++
 -O0 full hd
 estimated_time
