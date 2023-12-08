@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+project( lab2 )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( lab2_novec lab2_novec.cpp )
+# add_executable( lab2_vec lab2_vec.cpp )
+target_link_libraries( lab2_novec ${OpenCV_LIBS} )
+# target_link_libraries( lab2_vec ${OpenCV_LIBS} )
