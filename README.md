@@ -178,5 +178,9 @@ estimated_time
 38352356 us
 avg 383523
 ```
-
+## Сравнительные графики
+### Сравнение Full HD neon и разные уровни оптимизации 
+![image](images/bar.png)
+### Сравнение разных разрешений c neon и без
+![image](images/bar2.png)
 
